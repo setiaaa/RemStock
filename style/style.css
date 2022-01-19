@@ -1,0 +1,233 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #252525;
+}
+body.dark{
+    background-color: white;
+}
+body.dark label{
+    background-color: #252525;
+}
+label{
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #AF0404;
+    display: inline-block;
+    width: 85px;
+    height: 20px;
+    border-radius: 35px;
+    cursor: pointer;
+    text-align: center;
+    
+    margin-top: 12px;
+}
+#toggle{
+    visibility: hidden;
+}
+form{
+    width: 50%;
+}
+.nav-bar{
+    right: 90px;
+    position: relative ;
+    top: 33px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+.nav-bar a{
+    align-items: center;
+    color: #AF0404;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 12pt;
+    font-weight: bolder;
+    margin: 5px;
+    width: 75px;
+    text-decoration: none;
+    border: 10px;
+    border-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-bar a:hover{
+    color: whitesmoke;
+    background-color: #AF0404;
+    font-weight: bolder;
+}
+.heading{
+    height: 100px;
+    background-color: #252525;
+}
+.title-page{
+    position: relative;
+    float: left;
+    left: 45px;
+    top: 18px;
+    font-size: 30pt;
+    font-family: 'Alfa Slab One', cursive;
+}
+.title-page h3{
+    color: #AF0404;
+}
+.input-div{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 80px;
+    padding: 10px;
+}
+.input{
+    padding: 10px;
+    text-align: center;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+.container{
+    position: relative;
+    padding: 50px;
+}
+.submit-button{
+    height: 40px;
+    background-color: #252525;
+    color: whitesmoke;
+    width: 200px;
+    margin-left: 100px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+.submit-button:hover{
+    color: whitesmoke;
+    border-color: #252525;
+    background-color: #AF0404;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+}
+.login-form{
+    background-color: #AF0404;
+    width: 400px;
+    border-radius: 10px;
+}
+.landing-greet{
+    text-align: center;
+    padding-top: 10px;
+}
+div .check-box{
+    margin-left: 100px;
+}
+
+.title-page{
+    text-align: center;
+    color: white;
+}
+.article{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: -15px;
+    margin-left: 85px;
+    margin-right: 85px;
+    border-radius: 30px;
+    font-size: 20pt;
+    text-align: center;
+    height: 100%;
+    background-color: white;
+}
+.article div{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.article div div{
+    width: 60%;
+}
+.article div div img{
+    width: 40%;
+    margin: 10px;
+    border-radius: 15%;
+    border: 50px;
+}
+.article div div img:hover{
+    width: 50%;
+}
+.contact-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content:  center;
+}
+.contact-container div{
+    margin: 20px;
+}
+.contact-container div div .button{
+    background-color: #AF0404;
+    color: whitesmoke;
+    border-radius: 35px;
+    margin-left: -5px;
+    margin-top: 10px;
+    height: 30px;
+    padding: 5px;
+    width: 80px;
+    padding-bottom: 5;
+}
+.contact-container div div .button:hover{
+    background-color: #252525;
+    border-color: #AF0404;
+    color: white;
+}
+.nav-category nav{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav-category nav a{
+    position: static;
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 100px;
+    height: 45px;
+    padding-top: 6px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+    color: #AF0404;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-category nav a:hover{
+    background-color: #AF0404;
+    color: white;
+}
+.borderfooter{ 
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #AF0404 ;
+    margin: 1em 0;
+    padding: 0; }
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #252525;
+    height: 115px;
+    margin-bottom: 0%;
+}
+footer div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    color: #AF0404;
+    height: 65px;
+    width: device-width;
+}
+.bottonrowfooter{
+    padding-top: 0%;
+}

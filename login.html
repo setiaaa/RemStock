@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Remstock</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/a81368914c/js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="scriptjs/jquery.js"></script>
+    <script type="text/javascript" src="scriptjs/script.js"></script>
+</head>
+<body>
+    <script>
+        showinputfunction();
+        hideinputfunction();
+    </script>
+    <div class="heading">
+        <div class="title-page"> <h3>REMSTOCK</h3></div>
+        <div class="nav">
+            <nav class="nav-bar">
+                <a href="index.html">Home</a> 
+                <a href="#">Login</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>   
+    </div>
+    <div class="container">
+        <div class="login-container">
+            <form id="showhideform" class="login-form" action="index.html" onmouseenter="showinputfunction()" onmouseleave="hideinputfunction()">
+                <h2 class="landing-greet">Welcome</h2>
+                <div id="showinput" class="input-div">
+                    <div>
+                        <input class="input" type="text" placeholder="username">
+                    </div>
+                </div>
+                <div id="showinput2" class="input-div">
+                    <div>
+                        <input class="input" type="password" placeholder="password">
+                    </div>
+                </div>
+                <div id="showinput3" >
+                    <input class="check-box" type="checkbox" checked="checked" name="remember"> Remember me
+                </div>
+                <br><br>
+                <input id="showinput4" type="submit" onclick="login()" class="submit-button" value="Login">
+                <script type="text/javascript" src="scriptjs/script.js">
+                    login();
+                </script>
+                <br><br><br>
+            </form>
+        </div>
+    </div>
+    <hr class="borderfooter">
+    <footer>
+        <div class="toprowfooter">
+            <p>All products belong to Each Brands</p>
+        </div>
+        <div class="bottonrowfooter">
+            <p>&copy; 2021 www.remstock.com</p>
+        </div>
+    </footer>
+</body>
+</html>
